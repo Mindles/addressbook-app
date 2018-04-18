@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AddressBook</title>
+	<link rel="stylesheet" href="styles/addressbook.css">
+	<script src="scripts/addressbook.js"></script>
+	<style>
+		html { 
+			background: url(img/background.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<h1>Address Book</h1>
+		</div>
+		<div class="quickadd"><div type="submit" id="QuickAdd" class="fab"> + </div></div>
+		<div class="quickaddForm">
+			<label for="fullname">Name</label><input type="text" id="fullname" class="formFields">
+			<label for="phone">Phone</label><input type="text" id="phone" class="formFields">
+			<label for="email">E-Mail</label><input type="text" id="email" class="formFields">
+			<br><br>
+			<button id="Add">Add Now</button><button id="Cancel">Cancel</button>
+		</div>
+		
+		<div class="addbook">
+			<!-- <div class="entry">
+				<div class="name"><p>Akanimoh John</p></div>
+				<div class="email"><p>akanimoh@example.com</p></div>
+				<div class="phone"><p>12345</p></div>
+				<div class="del"><a href="#">Delete</a></div>
+			</div> -->
+			
+		</div>
+	</div>
+</body>
+</html>
