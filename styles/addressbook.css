@@ -46,12 +46,8 @@ body {
     transform: scale(1.05);
  }
 
-
-
-
-
 .quickaddForm {
-    height:210px;
+    height:290px;
     padding:10px;
     background:#FFF;
     opacity: 0.5;
